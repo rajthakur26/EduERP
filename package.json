@@ -1,0 +1,12 @@
+{
+  "name": "eduerp",
+  "version": "1.0.0",
+  "description": "EduERP - ERP-Based Integrated Student Management System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node utils/seed.js"
+  },
+  "private": true
+}
