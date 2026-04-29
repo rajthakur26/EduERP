@@ -2,6 +2,9 @@
 
 A full-stack MERN application with role-based access control for Admins, Teachers, and Students.
 
+🌐 **Live Demo**: https://eduerp-three.vercel.app
+🔗 **Backend API**: https://eduerp-aui8.onrender.com
+
 ## 🚀 Tech Stack
 - **Frontend**: React (Vite) + Tailwind CSS + Redux Toolkit
 - **Backend**: Node.js + Express.js + MongoDB (Mongoose)
@@ -69,15 +72,23 @@ node utils/seed.js
 - **Realtime**: Socket.IO notifications pushed to connected users
 
 ## 📡 API Endpoints
-| Module       | Base Path            |
-|--------------|----------------------|
-| Auth         | `/api/auth`          |
-| Users        | `/api/users`         |
-| Students     | `/api/students`      |
-| Teachers     | `/api/teachers`      |
-| Attendance   | `/api/attendance`    |
-| Results      | `/api/results`       |
-| Fees         | `/api/fees`          |
-| Assignments  | `/api/assignments`   |
-| Notifications| `/api/notifications` |
-| Analytics    | `/api/analytics`     |
+| Module        | Base Path             |
+|---------------|-----------------------|
+| Auth          | `/api/auth`           |
+| Users         | `/api/users`          |
+| Students      | `/api/students`       |
+| Teachers      | `/api/teachers`       |
+| Attendance    | `/api/attendance`     |
+| Results       | `/api/results`        |
+| Fees          | `/api/fees`           |
+| Assignments   | `/api/assignments`    |
+| Notifications | `/api/notifications`  |
+| Analytics     | `/api/analytics`      |
+
+## 🌍 Deployment
+| Service    | Platform        | URL                                      |
+|------------|-----------------|------------------------------------------|
+| Frontend   | Vercel          | https://eduerp-three.vercel.app          |
+| Backend    | Render          | https://eduerp-aui8.onrender.com         |
+| Database   | MongoDB Atlas   | Cloud hosted                             |
+| Storage    | Cloudinary      | Cloud hosted                             |
