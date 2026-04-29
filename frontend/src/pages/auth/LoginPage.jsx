@@ -72,7 +72,6 @@ export default function LoginPage() {
           <div className="mt-6 p-4 bg-gray-50 rounded-xl">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Demo Credentials</p>
             <div className="space-y-1.5 text-xs text-gray-600">
-              <div className="flex justify-between"><span className="font-medium">Admin:</span><span>admin@eduerp.com / admin123</span></div>
               <div className="flex justify-between"><span className="font-medium">Teacher:</span><span>teacher@eduerp.com / teacher123</span></div>
               <div className="flex justify-between"><span className="font-medium">Student:</span><span>student@eduerp.com / student123</span></div>
             </div>
